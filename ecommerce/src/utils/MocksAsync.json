@@ -1,0 +1,72 @@
+{
+    "categorias": [
+    { "id": 1, "nombre": "Tazas" },
+    { "id": 2, "nombre": "Bowls" },
+    { "id": 3, "nombre": "Platos" }
+  ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Taza Stitch",
+        "descripcion": "Taza tematica del personaje Stitch.",
+        "precio": 0.25,
+        "stock": 100,
+        "imagen": "../assets/TazaStitch.jpg",
+        "isOnDiscount": false,
+        "categoria": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Taza Monster Inc",
+        "descripcion": "Nuevas tazas basada en el personaje de Monster Inc, Sullivan.",
+        "precio": 0.25,
+        "stock": 50,
+        "imagen": "../assets/TazaMonsterInc.jpg",
+        "isOnDiscount": true,
+        "categoria": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Bowl Rosa",
+        "descripcion": "Bowls pintados manualmente, con bellas rosas negras.",
+        "precio": 0.40,
+        "stock": 25,
+        "imagen": "../assets/BowlRosa.jpg",
+        "isOnDiscount": true,
+        "categoria": 2
+      },
+      {
+        "id": 4,
+        "nombre": "Bowl Hojas",
+        "descripcion": "Bowls pintados con tecnica de estampado, utilizando hojas naturales.",
+        "precio": 0.30,
+        "stock": 50,
+        "imagen": "../assets/BowlHojas.jpg",
+        "isOnDiscount":false,
+        "categoria":2
+      },
+      {
+        "id": 5,
+        "nombre": "Platos Azul Marino",
+        "descripcion": "Set de platos color Azul Marino.",
+        "precio": 1.90,
+        "stock": 20,
+        "imagen": "../assets/PlatoAzulMarino.jpg",
+        "isOnDiscount": true,
+        "categoria": 3
+  
+      },
+      {
+        "id": 6,
+        "nombre": "Platos Petroleo",
+        "descripcion": "Set de dos platos con el nuevo color petroleo.",
+        "precio": 1.60,
+        "stock": 10,
+        "imagen": "../assets/PlatoPetroleo.jpg",
+        "isOnDiscount": true,
+        "categoria": 3
+  
+      }
+
+    ]
+  }
